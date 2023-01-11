@@ -50,5 +50,11 @@ public class JsonReader implements Reader {
     public void setFilePath(String filePath) {
         this.filePath = filePath;
     }
+
+	@Override
+	public void write(String name, String age) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
  
 }

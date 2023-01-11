@@ -34,5 +34,11 @@ public class TextReader implements Reader {
         this.filePath = filePath;
     }
 
+	@Override
+	public void write(String name, String age) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
     
 }
