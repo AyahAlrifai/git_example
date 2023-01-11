@@ -16,7 +16,7 @@ public class TextReader implements Reader {
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-                data = data.replaceAll("\\s+", "\t");
+                data = data.replaceAll("\\s+", "\n");
                 System.out.println(data);
             }
             myReader.close();
